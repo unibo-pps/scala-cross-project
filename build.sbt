@@ -1,5 +1,5 @@
 name := "scala-crossproject-config"
-ThisBuild / scalaVersion := "3.1.2"
+ThisBuild / scalaVersion := "3.2.2"
 
 lazy val pure = crossProject(JSPlatform, NativePlatform, JVMPlatform)
   .crossType(CrossType.Pure) // flavour
